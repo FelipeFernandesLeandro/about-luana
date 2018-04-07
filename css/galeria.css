@@ -1,0 +1,10 @@
+body {
+  background: linear-gradient(135deg, #00bee0, #46b3de);
+}
+.galeria-container {
+	background: white
+	
+}
+.gallery {
+	width: 10%;
+}

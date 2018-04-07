@@ -1,0 +1,405 @@
+@charset "UTF-8";
+img {
+	width: 100%;
+}
+
+@font-face {
+	font-family: "Multicolore";
+	src: url("fonts/Multicolore.otf");
+}
+
+@font-face {
+	font-family: "Lowvetica-UltraThin";
+	src: url("fonts/Lowvetica-UltraThin.ttf");
+}
+
+@font-face {
+	font-family: "Lowvetica";
+	src: url("fonts/Lowvetica.ttf");
+}
+
+@font-face {
+	font-family: "LowveticaBold";
+	src: url("fonts/LowveticaBold.ttf");
+}
+
+@font-face {
+	font-family: "Lora";
+	src: url("fonts/Lora-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Sunshine";
+	src: url("fonts/A little sunshine.ttf");
+}
+
+@font-face {
+	font-family: "Coffee";
+	src: url("fonts/coffee+teademo-Regular.ttf");
+}
+
+@font-face {
+	font-family: "PleaseWrite";
+	src: url("fonts/Please write me a song.ttf");
+}
+
+@font-face {
+	font-family: "Giz";
+	src: url("fonts/vtks giz.ttf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+	font-family: "PoppinsBold";
+	src: url("fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+	font-family: "PoppinsExBold";
+	src: url("fonts/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+	font-family: "PoppinsSemiBold";
+	src: url("fonts/Poppins-SemiBold.ttf");
+}
+
+.invisivel {
+	visibility: hidden;
+}
+
+html {
+	font-size: 0.8em;
+}
+
+body {
+	background: linear-gradient(135deg, #00bee0, #46b3de);
+	color: #0d0f2d;
+}
+
+p {
+	text-indent: 35px;
+	text-align: justify;
+}
+
+main {
+	background-color: #fff;
+	border-radius: 5px;
+	border: #0d0f2d solid 1px;
+	margin: 12em auto 1em auto;
+	width: 92%;
+}
+
+@media (min-width: 1000px) {
+	html {
+		font-size: 1em;
+	}
+	main {
+		margin: 12em auto 50px auto;
+		max-width: 633px;
+	}
+}
+
+@media (min-width: 480px) {
+	main {
+		width: 70%;
+	}
+}
+
+#fotoCapa {
+	background-image: url("../media/tratadas/formatura.jpg");
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 5px solid;
+	border-color: #9093b8;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	transform: translate(0, -50%);
+	transition: 1s;
+	box-shadow: 0 0 50px inset;
+}
+
+#fotoCapa:hover {
+	transform: scale(1.2) translate(0, -50%);
+	transform-origin: top;
+}
+
+#botao-fotos {
+	position: relative;
+	background-color: #aa1358;
+	width: 65%;
+	transform: translate(-50%);
+	left: 50%;
+	border-radius: 5px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	color: white;
+	font-family: "LowveticaBold";
+	font-size: 1.4em;
+	letter-spacing: 0.1em;
+	border: solid 2px #aa1358;
+	transition: 0.5s;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+
+#botao-fotos:hover {
+	background: linear-gradient(135deg, #00bee0, #46b3de);
+	padding-right: 30px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #aa1358;
+}
+
+#titulo {
+	margin-top: -100px;
+	text-align: center;
+	position: relative;
+	font-family: "Multicolore";
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+.luana {
+	font-family: "LowveticaBold";
+	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+#subtitulo {
+	position: relative;
+	text-align: center;
+	font-family: "Lora";
+	font-size: 1.4em;
+	margin: 0.6em 1em 1em 1em;
+}
+
+#textao {
+	margin: 0.6em 1em 1.5em 1em;
+	position: relative;
+	font-family: "Lora";
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+#tags {
+	text-align: center;
+	position: relative;
+	margin-top: 2em;
+	margin-bottom: 0.7em;
+}
+
+#catchPhrase {
+	text-align: center;
+	position: relative;
+	margin-top: 1.2em;
+	margin-bottom: 0.7em;
+}
+
+#rodape {
+	height: 2em;
+}
+
+#tags {
+	position: relative;
+	font-family: "Lora", sans-serif;
+	font-size: 0.8em;
+	color: #9e1b8b;
+	font-weight: bold;
+	word-spacing: 1em;
+}
+
+#catchPhrase {
+	position: relative;
+	font-family: "Lora", sans-serif;
+	font-size: 0.8em;
+}
+
+#strong {
+	font-weight: bold;
+	letter-spacing: 0.1em;
+}
+
+.link-contatos {
+	position: relative;
+	margin: auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.link-contatos {
+	overflow: hidden;
+	list-style: none;
+}
+
+.link-contatos {
+	display: flex;
+	justify-content: center;
+	margin: auto 3px;
+	position: relative;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.link-contatos span {
+	transition: 0.5s;
+	font-size: 3em;
+	margin: 0.1em;
+	position: relative;
+}
+
+.link-contatos span:hover {
+	color: #1f1337;
+	position: relative;
+	bottom: 0.1em;
+	transition: 0.8s;
+}
+
+#carrossel {
+	border: solid 0.4em #0d0f2d;
+	border-radius: 5px;
+}
+
+.portifolio {
+	background-image: url("patterns/swirl_pattern.png");
+	padding: 20px 40px;
+	border-bottom: 2px solid #ccc;
+	border-top: 2px solid #ccc;
+}
+
+.portifolio-titulo-primeiro {
+	text-align: center;
+	margin-bottom: 0px;
+	color: #2b1d3c;
+	font: 400 4em "Berkshire Swash", Helvetica, sans-serif;
+	text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0, 0, 0, 0.15);
+	line-height: 0.8em;
+}
+
+.portifolio-titulo-segundo {
+	text-align: center;
+	margin-bottom: 0.5em;
+	font-size: 4em;
+	font-family: PleaseWrite;
+	color: #2b1d3c;
+	text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0, 0, 0, 0.15);
+	line-height: 1em;
+}
+
+.dia-a-dia {
+	font-family: Coffee;
+	color: #6c4a96;
+	text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0, 0, 0, 0.15);
+	line-height: normal;
+	border-bottom: #6c4a96 solid 0.075em;
+	line-height: 1em;
+}
+
+.rodape {
+	margin-bottom: 2em;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2018-4-7 0:13:24
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+	0% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	}
+	40% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes tracking-in-expand {
+	0% {
+		letter-spacing: -0.5em;
+		opacity: 0;
+	}
+	40% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.text-shadow-drop-center:hover {
+	-webkit-animation: text-shadow-drop-center 0.6s both;
+	animation: text-shadow-drop-center 0.6s both;
+}
+
+@-webkit-keyframes text-shadow-drop-center {
+	0% {
+		text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	}
+	100% {
+		text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+	}
+}
+
+@keyframes text-shadow-drop-center {
+	0% {
+		text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	}
+	100% {
+		text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+	}
+}
+
+.bg-pan-left {
+	-webkit-animation: bg-pan-left 8s both;
+	animation: bg-pan-left 8s both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2018-4-7 8:19:32
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation bg-pan-left
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes bg-pan-left {
+	0% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes bg-pan-left {
+	0% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
