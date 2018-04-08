@@ -9,16 +9,6 @@ img {
 }
 
 @font-face {
-	font-family: "Lowvetica-UltraThin";
-	src: url("fonts/Lowvetica-UltraThin.ttf");
-}
-
-@font-face {
-	font-family: "Lowvetica";
-	src: url("fonts/Lowvetica.ttf");
-}
-
-@font-face {
 	font-family: "LowveticaBold";
 	src: url("fonts/LowveticaBold.ttf");
 }
@@ -29,11 +19,6 @@ img {
 }
 
 @font-face {
-	font-family: "Sunshine";
-	src: url("fonts/A little sunshine.ttf");
-}
-
-@font-face {
 	font-family: "Coffee";
 	src: url("fonts/coffee+teademo-Regular.ttf");
 }
@@ -41,31 +26,6 @@ img {
 @font-face {
 	font-family: "PleaseWrite";
 	src: url("fonts/Please write me a song.ttf");
-}
-
-@font-face {
-	font-family: "Giz";
-	src: url("fonts/vtks giz.ttf");
-}
-
-@font-face {
-	font-family: "Poppins";
-	src: url("fonts/Poppins-Regular.ttf");
-}
-
-@font-face {
-	font-family: "PoppinsBold";
-	src: url("fonts/Poppins-Bold.ttf");
-}
-
-@font-face {
-	font-family: "PoppinsExBold";
-	src: url("fonts/Poppins-ExtraBold.ttf");
-}
-
-@font-face {
-	font-family: "PoppinsSemiBold";
-	src: url("fonts/Poppins-SemiBold.ttf");
 }
 
 .invisivel {
